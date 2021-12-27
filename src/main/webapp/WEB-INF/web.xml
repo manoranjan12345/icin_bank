@@ -1,0 +1,77 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<servlet-name>CustomerServlet</servlet-name>
+		<display-name>CustomerServlet</display-name>
+		<description></description>
+		<servlet-class>com.bank.servlet.CustomerServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>CustomerLoginServlet</servlet-name>
+		<display-name>CustomerLoginServlet</display-name>
+		<description></description>
+		<servlet-class>com.bank.servlet.CustomerLoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AccountServlet</servlet-name>
+		<display-name>AccountServlet</display-name>
+		<description></description>
+		<servlet-class>com.bank.servlet.AccountServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ManagerServlet</servlet-name>
+		<display-name>ManagerServlet</display-name>
+		<description></description>
+		<servlet-class>com.bank.servlet.ManagerServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>PersonalLoginServlet</servlet-name>
+		<display-name>PersonalLoginServlet</display-name>
+		<description></description>
+		<servlet-class>com.bank.servlet.PersonalLoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>PersonalLoginServlet2</servlet-name>
+		<display-name>PersonalLoginServlet2</display-name>
+		<description></description>
+		<servlet-class>com.bank.servlet.PersonalLoginServlet2</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ManagerServlet2</servlet-name>
+		<display-name>ManagerServlet2</display-name>
+		<description></description>
+		<servlet-class>com.bank.servlet.ManagerServlet2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CustomerServlet</servlet-name>
+		<url-pattern>/CustomerServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CustomerLoginServlet</servlet-name>
+		<url-pattern>/CustomerLoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AccountServlet</servlet-name>
+		<url-pattern>/AccountServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ManagerServlet</servlet-name>
+		<url-pattern>/ManagerServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PersonalLoginServlet</servlet-name>
+		<url-pattern>/PersonalLoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PersonalLoginServlet2</servlet-name>
+		<url-pattern>/PersonalLoginServlet2</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ManagerServlet2</servlet-name>
+		<url-pattern>/ManagerServlet2</url-pattern>
+	</servlet-mapping>
+</web-app>

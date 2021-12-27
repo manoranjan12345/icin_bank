@@ -1,0 +1,283 @@
+@charset "ISO-8859-1";
+.container1{
+	margin-bottom: 15px;
+}
+
+.header {
+	width: 1220px;
+	margin: auto;
+}
+
+.header h1 {
+	font-size: 50px;
+	font-weight: 500;
+	color: red;
+	padding-left: 15px;
+	float: left;
+}
+
+.con1 {
+	float: right;
+	padding-right: 15px;
+	padding-top: 15px;
+	color: red;
+	margin-top: 15px;
+	margin-right: 15px;
+}
+
+.con1 h3 {
+	font-size: 20px;
+	font-weight: 800;
+	padding-left: 18px;
+	padding-bottom: 12px;
+}
+
+.clear {
+	clear: both;
+}
+
+.con2 {
+	width: 1220px;
+	height: 60px;
+	margin: auto;
+	background: linear-gradient(#ff5959, yellow);
+}
+
+.con2 ul {
+	list-style: none;
+	padding-top: 15px;
+}
+
+.con2 ul li {
+	float: left;
+	padding: 0 45px;
+	border-right: 1px solid;
+}
+
+.con2 ul li:last-child {
+	border-right: none;
+}
+
+.con2 ul li a {
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+	transition: font-size 0.3s ease;
+}
+
+.con2 ul li a:hover, .con2 ul li a.active {
+	font-size: 20px;
+	font-weight: bold;
+	color: #604172;
+}
+
+.card1 {
+	float: left;
+	width: 585px;
+	height: 370px;
+	border: 0.5px solid grey;
+	margin-top: 15px;
+	margin-left: 45px;
+}
+
+.card2 {
+	float: right;
+	width: 585px;
+	height: 370px;
+	border: 0.5px solid grey;
+	margin-top: 15px;
+	margin-right: 45px;
+}
+
+.card3 {
+	margin: auto;
+	width: 295px;
+	height: 100px;
+}
+
+.card4 h3 {
+	padding-left: 10px;
+	padding-top: 15px;
+	color: #604172;
+	font-size: 30px;
+}
+
+.card5 h3 {
+	padding-left: 70px;
+	font-weight: bold;
+	color: black;
+	background: linear-gradient(#ff5959, yellow);
+}
+
+.form-group {
+	float: left;
+	padding: 5px;
+	margin-left: 20px;
+}
+
+.form-group1 {
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+.form-group1 img {
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+
+.card6 h3 {
+	padding-left: 70px;
+	padding-top: 15px;
+	color: #604172;
+	font-size: 30px;
+}
+
+.card7 h3 {
+	padding-left: 70px;
+	font-weight: bold;
+	color: black;
+	background: linear-gradient(#ff5959, yellow);
+}
+
+.form-group2 {
+	padding: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.bg-image {
+	background-image: url("photographer.jpg");;
+	filter: blur(8px);
+	-webkit-filter: blur(8px);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.card8 {
+	width: 1220px;
+	background: linear-gradient(#ff5959, yellow);
+	height: 225px;
+	margin: auto;
+	margin-top: 15px;
+}
+.card8 img {
+	float: left;
+	padding-top: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.con20{
+	width: 1220px;
+	height: 60px;
+	margin: auto;
+	background: linear-gradient(#ff5959, yellow);
+}
+.con20 h3 {
+	text-align: center;
+	text-decoration: blink;
+	padding-top: 12px;
+	font-weight: bold;
+}
+.col-md-3{
+	width: 250px;
+	height: 1900px;
+	margin-left: 30px;
+	margin-top: 10px;
+	background: linear-gradient(#ff5959, yellow);
+	float: left;
+}
+.col-md-9{
+	float: right;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+.con21{
+	height: 30px;
+	background: linear-gradient(#ff5959, yellow);
+	margin-bottom: 5px;
+}
+.con21 h5 {
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+.con30 {
+	width: 1220px;
+	height: 400px;
+	margin: auto;
+	background: linear-gradient(#ff5959, yellow);
+}
+.con30 button{
+	margin-top: 45px;
+	margin-left: 100px;
+	width: 400px;
+	height: 75px;
+}
+.con30 button:hover{
+	color: blue;
+}
+
+.con40 {
+	width: 1220px;
+	height: auto;
+	margin: auto;
+	background: linear-gradient(#ff5959, yellow);
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-right: 15px;
+}
+.con40 input{
+	text-align: center;
+}
+
+.con50 {
+	width: 1220px;
+	height: auto;
+	margin: auto;
+	background: linear-gradient(#ff5959, yellow);
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-right: 15px;
+}
+.con50 input{
+	text-align: center;
+}
+.con50 button{
+	font-weight: bold;
+	border: 2px solid;
+	float: right;
+}
+
+.con60 {
+	width: 1220px;
+	height: auto;
+	margin: auto;
+	background: linear-gradient(#ff5959, yellow);
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+}
+
+.conD1{
+	width: 1220px;
+	height: 400px;
+	margin: auto;
+	background: linear-gradient(#ff5959, yellow);
+	padding-top: 50px;
+}
+.conD1 h3{
+	text-align: center;
+}
+.conD1 input {
+	margin-left: 450px;
+}
+.conD1 button {
+	margin-left: 550px;
+}
+
+.conD {
+	text-align: center;
+}
